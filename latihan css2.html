@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desain tabel & formuiir css</title>
+<head>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #0f172a;
+        }
+
+      
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        
+        form {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            width: 400px;
+        }
+
+        input, select, textarea {
+            width: 95%;
+            padding: 8px;
+            border: 1px solid #94a3b8;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+
+        button {
+            background-color: #16a34a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Daftar Ekstrakurikuler IT & olahraga</h2>
+
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama Ekskul</th>
+            <th>Hari Latihan</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Web Design</td>
+            <td>Senin</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Programming</td>
+            <td>Selasa</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Robotik</td>
+            <td>Rabu</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Desain Grafis</td>
+            <td>Kamis</td>
+          <tr>
+            <td>4</td>
+            <td>sepak bola</td>
+            <td> jumat</td>
+        </tr
+          <tr>
+            <td>5</td>
+            <td>futsal</td>
+            <td>sabtu</td>
+          </tr>
+    </table>
+
+    <br>
+
+    <h2>Formulir Pendaftaran Ekskul</h2>
+
+    <form>
+        <label>nama:</label><br>
+        <input type="text" placeholder="Masukkan nama"><br><br>
+
+        <label>Kelas:</label><br>
+        <input type="text" placeholder="Masukkan kelas"><br><br>
+
+        <label>Pilih Ekstrakurikuler:</label><br>
+        <select>
+            <option>Web Design</option>
+            <option>Programming</option>
+            <option>Robotik</option>
+            <option>Desain Grafis</option>
+           <option>sepak bola</option>
+          <option>futsal</option>
+        </select><br><br>
+
+        <label>Alasan Mengikuti:</label><br>
+        <textarea rows="4" placeholder="Tuliskan alasan"></textarea><br><br>
+
+        <button type="submit">Daftar Sekarang</button>
+    </form>
+
+</body>
+</>
